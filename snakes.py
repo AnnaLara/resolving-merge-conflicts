@@ -18,13 +18,8 @@ class BoaConstrictor(Snake):
     
     def squeeze(self, other):
         """Give a hug."""
-        pass
-
+        """some changes in squeeze function"""
     
 class BoatConstrictor(BoaConstrictor):
     """Loose snakes sink ships?"""
-
-    def __init__(self):
-        """Create a new BoatConstrictor"""
-        super().__init__()
-        self.size = "enormous"
+    pass
