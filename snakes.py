@@ -5,6 +5,8 @@ class Snake:
 
 class Cobra(Snake):
     """Definitely dangerous, yup."""
+    def __init__(self, color):
+        self.color = color
     
     def bite(self, other):
         """Deliver a dose of venom."""
